@@ -8,7 +8,14 @@
         "cost": 40,
         "obsoleteTech": "Iron Working",
         "upgradesTo": "Swordsman",
-        "uniques": ["May upgrade to [Spearman] through ruins-like effects", "Can upgrade to [Warrior2]", "Can upgrade to [Warrior3]"],
+        "uniques": [
+            "May upgrade to [Spearman] through ruins-like effects",
+            "Can upgrade to [Warrior2]",
+            "Can upgrade to [Warrior3]",
+            "Can upgrade to [Swordsman]",
+            "Can upgrade to [Swordsman2]",
+            "Can upgrade to [Swordsman3]"
+        ],
         "attackSound": "nonmetalhit",
         "civilopediaText": [
             {
@@ -48,4 +55,30 @@
             }
         ]
     },
+	{
+		"name": "Swordsman2",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Swordsman3",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
 ]
