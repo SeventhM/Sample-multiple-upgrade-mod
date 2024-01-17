@@ -1,0 +1,51 @@
+[
+	
+    {
+        "name": "Warrior",
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 8,
+        "cost": 40,
+        "obsoleteTech": "Iron Working",
+        "upgradesTo": "Swordsman",
+        "uniques": ["May upgrade to [Spearman] through ruins-like effects", "Can upgrade to [Warrior2]", "Can upgrade to [Warrior3]"],
+        "attackSound": "nonmetalhit",
+        "civilopediaText": [
+            {
+                "text": "This is your basic, club-swinging fighter."
+            }
+        ]
+    },
+	{
+        "name": "Warrior2",
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 8,
+        "cost": 40,
+        "obsoleteTech": "Iron Working",
+        "upgradesTo": "Swordsman",
+        "uniques": ["May upgrade to [Spearman] through ruins-like effects"],
+        "attackSound": "nonmetalhit",
+        "civilopediaText": [
+            {
+                "text": "This is your basic, club-swinging fighter."
+            }
+        ]
+    },
+	{
+        "name": "Warrior3",
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 8,
+        "cost": 40,
+        "obsoleteTech": "Iron Working",
+        "upgradesTo": "Swordsman",
+        "uniques": ["May upgrade to [Spearman] through ruins-like effects"],
+        "attackSound": "nonmetalhit",
+        "civilopediaText": [
+            {
+                "text": "This is your basic, club-swinging fighter."
+            }
+        ]
+    },
+]
